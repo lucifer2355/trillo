@@ -1,9 +1,13 @@
 import React from "react";
 
+import Header from "./components/Header";
+import Content from "./components/Content";
+
 function App() {
   return (
-    <div className='aspp'>
-      <h1>Hello Worlds</h1>
+    <div className='container'>
+      <Header />
+      <Content />
     </div>
   );
 }
