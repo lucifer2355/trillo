@@ -35,9 +35,9 @@ const Header = () => {
           <img
             src='/images/user.jpg'
             alt='User Photo'
-            className='user-nav__user__photo'
+            className='user-nav__user-photo'
           />
-          <span className='user-nav__name'>Jonas</span>
+          <span className='user-nav__user-name'>Jonas</span>
         </div>
       </nav>
     </header>
