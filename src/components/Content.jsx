@@ -8,7 +8,7 @@ const Content = () => {
     <div className='content'>
       <Nav />
 
-      <main>
+      <main className='hotel-view'>
         <HotelView />
       </main>
     </div>

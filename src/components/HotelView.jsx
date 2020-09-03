@@ -1,7 +1,7 @@
 import React from "react";
 
 const HotelView = () => {
-  return <div className='hotel-view'>Hotel View</div>;
+  return <>Hotel View</>;
 };
 
 export default HotelView;
