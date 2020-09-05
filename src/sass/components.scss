@@ -27,6 +27,11 @@
       width: 100%;
       background-color: var(--color-grey-light-3);
     }
+
+    &::-webkit-input-placeholder {
+      font-weight: 100;
+      color: var(--color-grey-light-4);
+    }
   }
 
   &__input:focus + &__button {
@@ -36,6 +41,7 @@
   &__button {
     border: none;
     background-color: var(--color-grey-light-2);
+    cursor: pointer;
 
     &:focus {
       outline: none;
@@ -49,6 +55,7 @@
   &__icon {
     height: 2rem;
     width: 2rem;
+    fill: var(--color-dark-3);
   }
 }
 
