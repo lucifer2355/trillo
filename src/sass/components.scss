@@ -1,11 +1,28 @@
 //* LOGO
 .logo {
   height: 3.25rem;
+  margin-right: 3rem;
 }
 
 //* Search Box
 .search {
+  flex: 0 0 40%;
+
   &__input {
+    font-family: inherit;
+    font-size: inherit;
+    background-color: var(--color-grey-light-2);
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 100px;
+    width: 90%;
+    transition: all 0.2s;
+
+    &:focus {
+      outline: none;
+      width: 100%;
+      background-color: var(--color-grey-light-3);
+    }
   }
 
   &__button {
