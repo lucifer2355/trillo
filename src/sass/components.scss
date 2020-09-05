@@ -7,6 +7,9 @@
 //* Search Box
 .search {
   flex: 0 0 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   &__input {
     font-family: inherit;
@@ -17,6 +20,7 @@
     border-radius: 100px;
     width: 90%;
     transition: all 0.2s;
+    margin-right: -3.25rem;
 
     &:focus {
       outline: none;
@@ -25,7 +29,21 @@
     }
   }
 
+  &__input:focus + &__button {
+    background-color: var(--color-grey-light-3);
+  }
+
   &__button {
+    border: none;
+    background-color: var(--color-grey-light-2);
+
+    &:focus {
+      outline: none;
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   &__icon {

@@ -11,7 +11,7 @@ const Header = () => {
           className='search__input'
           placeholder='Search hotels'
         />
-        <button>
+        <button className='search__button'>
           <svg className='search__icon'>
             <use xlinkHref='/images/sprite.svg#icon-magnifying-glass'></use>
           </svg>
