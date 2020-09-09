@@ -5,7 +5,11 @@ const Nav = () => {
   return (
     <nav className='sidebar'>
       <ul className='side-nav'>
-        <SideBarList iconName='home' title='Hotel' />
+        <SideBarList
+          iconName='home'
+          title='Hotel'
+          activeClass='side-nav__item--active'
+        />
         <SideBarList iconName='aircraft-take-off' title='Flight' />
         <SideBarList iconName='key' title='Car rental' />
         <SideBarList iconName='map' title='Tours' />
